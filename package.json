@@ -41,7 +41,8 @@
     "preview": "vite preview",
     "version": " git add -A src",
     "postversion": "git push && git push --tags",
-    "deploy": "npm run build && npm version patch && npm publish"
+    "deploy": "npm run build && npm version patch && npm publish",
+    "prepare": "npm run build"
   },
   "dependencies": {
     "katex": "^0.15.1",
